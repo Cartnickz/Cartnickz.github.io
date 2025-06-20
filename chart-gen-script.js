@@ -35,7 +35,7 @@ function updateBox() {
 
     if (location) sceneOutput += " " + location;
     if (attendedBy) sceneOutput += ' attended by ' + attendedBy;
-    if (otherSceneInfo) document.getElementById('scene-output').innerHTML += otherSceneInfo + ". ";
+    if (otherSceneInfo) sceneOutput += otherSceneInfo + ". ";
     if (sceneOutput) sceneOutput += ". ";
 
     document.getElementById('scene-output').innerHTML = sceneOutput;
