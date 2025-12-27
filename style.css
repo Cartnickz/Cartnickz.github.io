@@ -34,3 +34,7 @@ html {
 .opening a:hover {
     text-decoration: none;
 }
+
+#interventions-div {
+    display: none;
+}
