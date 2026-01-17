@@ -709,15 +709,15 @@ function determineInterventions() {
     // ASA
     if (asa) {
         if (document.getElementById('asa-dose-81').checked) {
-            interventionsOutput += "The patient was administered 81 mg of aspirin for a full dose of 344 mg since they stated they had already taken 243 mg in the past 24 hours. ";
+            interventionsOutput += "The patient was administered 81 mg of aspirin for a full dose of 324 mg since they stated they had already taken 243 mg in the past 24 hours. ";
         } else if (document.getElementById('asa-dose-162').checked) {
-            interventionsOutput += "The patient was administered 162 mg of aspirin for a full dose of 344 mg since they stated they had already taken 162 mg in the past 24 hours. ";
+            interventionsOutput += "The patient was administered 162 mg of aspirin for a full dose of 324 mg since they stated they had already taken 162 mg in the past 24 hours. ";
         } else if (document.getElementById('asa-dose-243').checked) {
-            interventionsOutput += "The patient was administered 243 mg of aspirin for a full dose of 344 mg since they stated they had already taken 81 mg in the past 24 hours. ";
-        } else if (document.getElementById('asa-dose-344').checked) {
-            interventionsOutput += "The patient was administered 344 mg of aspirin. ";
+            interventionsOutput += "The patient was administered 243 mg of aspirin for a full dose of 324 mg since they stated they had already taken 81 mg in the past 24 hours. ";
+        } else if (document.getElementById('asa-dose-324').checked) {
+            interventionsOutput += "The patient was administered 324 mg of aspirin. ";
         } else if (document.getElementById('asa-dose-done').checked) {
-            interventionsOutput += "Aspirin was considered, however, the patient stated they had already taken the full 344 mg dose for today. ";
+            interventionsOutput += "Aspirin was considered, however, the patient stated they had already taken the full 324 mg dose for today. ";
         } else if (document.getElementById('asa-dose-none').checked) {
             interventionsOutput += "Aspirin was considered but not given as the patient's signs and symptoms associated with chest pain made it likely that the chest pain was not cardiac in nature. ";
         }
